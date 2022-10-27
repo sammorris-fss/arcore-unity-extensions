@@ -48,7 +48,7 @@ namespace Google.XR.ARCoreExtensions
         /// <summary>
         /// AR Foundation <c><see cref="ARSessionOrigin"/></c> used by the scene.
         /// </summary>
-        public ARSessionOrigin SessionOrigin;
+        public Unity.XR.CoreUtils.XROrigin SessionOrigin;
 
         /// <summary>
         /// AR Foundation <c><see cref="ARCameraManager"/></c> used in the ARSessionOrigin.
